@@ -48,53 +48,50 @@
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
-          <img src="images/scappy.jpg" class="m-avatar message__avatar" />
-
+          <img src="images/avatar.JPG" class="m-avatar message__avatar" />
+          <!-- /*이렇게 하나의 column*/ -->
           <div class="message__content">
             <span class="message__bubble">
-              Hey, When are you coming?
+              Congrats I love you!!
             </span>
             <span class="message__author">Best Friend!</span>
           </div>
         </li>
         <li class="sent-message message">
           <span class="message__timestamp"></span>
+          <!-- /*이렇게 하나의 column*/ -->
+          <!-- /*똑같은데 user랑 author가 없어서 지움, 대신 메세지가 위로 올라와.
+            처음엔 timestamp만 오고 그 다음 앞에거랑 같음*/ -->
           <div class="message__content">
             <span class="message__bubble">
-              Hmmmm...
+              Thank you see you soon~
             </span>
           </div>
         </li>
         <li class="incoming-message message">
-          <img src="images/scappy.jpg" class="m-avatar message__avatar" />
+          <img src="images/avatar.JPG" class="m-avatar message__avatar" />
+          <!-- /*이렇게 하나의 column*/ -->
           <div class="message__content">
             <span class="message__bubble">
-              I've got a nice cake ready
+              Congrats I love you!!
             </span>
             <span class="message__author">Best Friend!</span>
           </div>
         </li>
         <li class="sent-message message">
           <span class="message__timestamp"></span>
-
+          <!-- /*이렇게 하나의 column*/ -->
+          <!-- /*똑같은데 user랑 author가 없어서 지움, 대신 메세지가 위로 올라와.
+            처음엔 timestamp만 오고 그 다음 앞에거랑 같음*/ -->
           <div class="message__content">
             <span class="message__bubble">
-              Now i'm wearing my shirts.
+              Thank you see you soon~
             </span>
-          </div>
-        </li>
-        <li class="incoming-message message">
-          <img src="images/scappy.jpg" class="m-avatar message__avatar" />
-
-          <div class="message__content">
-            <span class="message__bubble">
-              Hurry uuuuuuup!!!!!
-            </span>
-            <span class="message__author">Best Friend!</span>
           </div>
         </li>
       </ul>
     </main>
+    <!-- /*메시지 입력창은 메인 다음에 만들자*/ -->
     <div class="chat__write--container">
       <input
         type="text"
@@ -102,6 +99,7 @@
         placeholder="Send message"
         class="chat__write-input"
       />
+      <!-- /* chat__write 클래스를 하나 만들고 column을 계산.*/ -->
       <div class="chat__icon-left chat__icon">
         <i class="far fa-plus-square"></i>
       </div>

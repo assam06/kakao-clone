@@ -10,7 +10,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- /*폰트스타일을 import해줌!*/ -->
     <title>Find l Kakao clone</title>
   </head>
   <body>
@@ -19,9 +18,7 @@
         <span class="status-bar__clock">13:54</span>
       </div>
       <div class="status-bar__column">
-        <!-- /*status-bar밑에 애들이 깔려있는데, 이게 다 종속되는거임*/ -->
         <i class="far fa-clock"></i>
-        <!-- /*이게 어떻게 작동하는지 한번 구조를 만들면 굳이 복사x, 이름만 붙이면 돼*/ -->
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
         <span class="status-bar__battery-level">100%</span>
@@ -33,10 +30,11 @@
         <h1 class="header__title">Find</h1>
       </div>
       <div class="header__header-column">
-        <!-- /*header 아이콘을 그냥 하나 박스 안에 다 넣어버리자*/ -->
         <span class="header__icon"> <i class="fas fa-search"></i></span>
         <span class="header__icon">
+          <a href="settings.html">
           <i class="far fa-comment"></i>
+          </a>
         </span>
         <span class="header__icon">
           <i class="fas fa-cog"></i>
@@ -86,7 +84,7 @@
         </h5>
         <li class="find__friend friend friend--lg">
           <div class="friend__column">
-          <img src="images/avatar.JPG" class="friend__avatar" />
+          <img src="images/plusFriend.jpg" class="friend__avatar" />
           <div class="friend__content">
             <span class="friend__name">
               Ray Lee
@@ -111,6 +109,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i
           ></a>
         </li>
