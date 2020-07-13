@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- /*폰트스타일을 import해줌!*/ -->
+    <title>Find l Kakao clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <!-- /*status-bar밑에 애들이 깔려있는데, 이게 다 종속되는거임*/ -->
+        <i class="far fa-clock"></i>
+        <!-- /*이게 어떻게 작동하는지 한번 구조를 만들면 굳이 복사x, 이름만 붙이면 돼*/ -->
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="i fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Find</h1>
+      </div>
+      <div class="header__header-column">
+        <!-- /*header 아이콘을 그냥 하나 박스 안에 다 넣어버리자*/ -->
+        <span class="header__icon"> <i class="fas fa-search"></i></span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="find">
+      <header class="find__header">
+        <ul class="find__header-list">
+          <il class="find__header-btn beader-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              QR Code
+            </span>
+          </il>
+          <il class="find__header-btn beader-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              Add by Contacts
+            </span>
+          </il>
+          <li class="find__header-btn header-btn">
+          <span class="header-btn__icon">
+            <i class="fas fa-passport fa-2x"></i>
+          </span>
+          <span class="header-btn__title">
+            Add by ID
+          </span>
+        </il>
+        <li class="find__header-btn header-btn">
+          <span class="header-btn__icon">
+            <i class="far fa-envelope fa-2x"></i>
+          </span>
+          <span class="header-btn__title">
+           Invite
+        </span>
+        </li>
+        </ul>
+      </header>
+      <ul class="find__recommended">
+        <h5 class="find__title">
+          Recommended Friends
+        </h5>
+        <li class="find__friend friend friend--lg">
+          <div class="friend__column">
+          <img src="images/avatar.JPG" class="friend__avatar" />
+          <div class="friend__content">
+            <span class="friend__name">
+              Ray Lee
+            </span>
+          </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <!-- /*href는 하이퍼링크구나...*/ -->
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Make your screen small!😅</span>
+    </div>
+  </body>
+</html>
