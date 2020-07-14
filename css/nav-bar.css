@@ -35,6 +35,17 @@
   border-radius: 50%;
 }
 
+.nav__badge-dot {
+  position: absolute;
+  top: -3;
+  right: -3px;
+  background-color: #dc5d46;
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+}
+
 @keyframes showNavBar {
   from {
     transform: translateY(80px);
