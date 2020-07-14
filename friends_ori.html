@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- /*폰트스타일을 import해줌!*/ -->
     <title>Friends l Kakao clone</title>
   </head>
   <body>
@@ -18,7 +19,9 @@
         <span class="status-bar__clock">13:54</span>
       </div>
       <div class="status-bar__column">
+        <!-- /*status-bar밑에 애들이 깔려있는데, 이게 다 종속되는거임*/ -->
         <i class="far fa-clock"></i>
+        <!-- /*이게 어떻게 작동하는지 한번 구조를 만들면 굳이 복사x, 이름만 붙이면 돼*/ -->
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
         <span class="status-bar__battery-level">100%</span>
@@ -35,9 +38,7 @@
         </span>
 
         <span class="header__icon">
-          <a href="settings.html">
-            <i class="fas fa-cog"></i>
-          </a>
+          <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
@@ -80,7 +81,7 @@
                 Scappy
               </span>
               <span class="friend__status">
-                MA Sweetie
+                Snow Town
               </span>
             </div>
           </div>
@@ -93,30 +94,8 @@
             </div>
           </div>
         </li>
-        <li class="friends__friend friend friend--lg">
-          <div class="friend__column">
-            <img
-              src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-winnie-the-pooh-winnie-the-pooh.jpg"
-              class="friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Poooooh
-              </span>
-              <span class="friend__status">
-                Winnie Winnie
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__now-listening">
-              <span>
-                Blueming - 아이유
-                <i class="fas fa-play"></i>
-              </span>
-            </div>
-          </div>
-        </li>
+      </ul>
+      <ul class="friends__list">
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
             <img src="images/jordy.jpg" class="friend__avatar" />
@@ -126,71 +105,6 @@
               </span>
               <span class="friend__status">
                 Snow Town
-              </span>
-            </div>
-          </div>
-        </li>
-
-        <li class="friends__friend friend friend--lg">
-          <div class="friend__column">
-            <img
-              src="https://img.khan.co.kr/news/2019/11/08/l_2019110801001014500075875.jpg"
-              class="friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Pengsoo
-              </span>
-              <span class="friend__status">
-                I'm crying today, again...
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__now-listening">
-              <span>
-                Stardust - W&Whale
-                <i class="fas fa-play"></i>
-              </span>
-            </div>
-          </div>
-        </li>
-        <li class="friends__friend friend friend--lg">
-          <div class="friend__column">
-            <img
-              src="https://yt3.ggpht.com/a/AGF-l78mQXJ9uYuLM7ueNsZEm3WUU9AhLlaB4X_21A=s900-c-k-c0xffffffff-no-rj-mo"
-              class="friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Hogi
-              </span>
-              <span class="friend__status">
-                We're recruiting our MEMBERS!!!
-              </span>
-            </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__now-listening">
-              <span>
-                출동! 슈퍼윙스
-                <i class="fas fa-play"></i>
-              </span>
-            </div>
-          </div>
-        </li>
-        <li class="friends__friend friend friend--lg">
-          <div class="friend__column">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNR3K-IXoMjYROz61tp5jckUBmfIOgHpPNgA&usqp=CAU"
-              class="friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Robocar Poli
-              </span>
-              <span class="friend__status">
-                Brooms Town
               </span>
             </div>
           </div>
@@ -217,7 +131,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <div class="nav__badge">5</div>
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i
           ></a>
         </li>
@@ -228,6 +142,7 @@
         </li>
         <li class="nav__list-item">
           <a href="more.html" class="nav__list-link">
+            <div class="nav__badge-dot"></div>
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
