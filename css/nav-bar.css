@@ -1,6 +1,5 @@
 .nav {
   position: fixed;
-  /*position fixed는 height와 width(얘는 필수)가 필요함*/
   width: 100%;
   padding: 20px 50px;
   background-color: #fcfcfc;

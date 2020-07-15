@@ -1,3 +1,7 @@
+.chats__list {
+  margin-top: 80px;
+}
+
 .friend {
   display: flex;
   justify-content: space-between;
