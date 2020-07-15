@@ -1,8 +1,14 @@
 .friends .friends__plus {
-  padding: 15px 0px;
+  padding: 10px 0px;
   border-bottom: 1px solid #f7f7f7;
   border-top: 1px solid #f7f7f7;
   margin: 20px 0px;
+}
+
+.friends .friend__content-count {
+  opacity: 40%;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .friends__plus .friends__title,

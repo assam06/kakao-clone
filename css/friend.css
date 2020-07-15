@@ -1,3 +1,7 @@
+.chats__list {
+  margin-top: 80px;
+}
+
 .friend {
   display: flex;
   justify-content: space-between;
@@ -29,12 +33,10 @@
   margin-right: 15px;
 }
 
-/*friend name이 밑으로 가야하니까_ block이 되어야하니까 display: block*/
 .friend__content .friend__name {
   display: block;
   font-weight: 600;
   font-size: 15px;
-  /* 글씨 떨어뜨리기 */
 }
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
@@ -79,7 +81,6 @@
   border-radius: 15px;
   font-size: 12px;
 }
-/*택스트만 회색 주려면 span을 선택해야하지*/
 
 .friend__now-listening span {
   opacity: 0.7;
