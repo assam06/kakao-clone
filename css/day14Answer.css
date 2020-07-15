@@ -1,8 +1,0 @@
-.cap {
-  transition: transform 0.3, opacity 0.3s;
-}
-
-.first:hover .cap {
-  opacity: 1;
-  transform: translate(10px, 10px);
-}

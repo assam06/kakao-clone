@@ -23,12 +23,10 @@
 .chats-body .status-bar {
   padding: 0px 20px;
 }
-/*바디값 리셋하려고 바디 헤더 쳇바디 스테투스바 패딩값 주는거임
-*/
+
 .chats-body {
   background-image: url("../images/chatBg.png");
   min-height: 1000vh;
-  /*->얘는 chat class가 적용된 div에 스크린(viewport)의 높이를 100% 주는거야*/
 }
 
 .chat__write--container {
@@ -91,16 +89,12 @@
   animation: float 1s linear infinite forwards;
 }
 
-/* ~는 input 다음의 sibling을 선택하는 것*/
 .chat__icon {
   font-size: 18px;
   transition: opacity 0.3s ease-in-out;
-  /* Html에서 아이콘이 input 다음에 있어야 이런 
-  transition을 할 수 있음*/
 }
 
 .chat__write:focus ~ .chat__icon {
-  /* display: none;  얘로 하면 애니메이션 못 넣음*/
   opacity: 0;
 }
 
@@ -118,7 +112,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*채팅내용 전부 가운데 정렬하고 싶음*/
   padding: 0px 20px;
   padding-top: 30px;
 }
@@ -244,7 +237,6 @@
   animation: incomingAnim 0.5s linear forwards;
 }
 
-/* incoming 메세지랑 다르게 + 양수로*/
 @keyframes sentAnimation {
   from {
     opacity: 0;

@@ -158,8 +158,6 @@ main {
   }
 }
 
-/*이 애니메이션을 main에 뿌렷*/
-
 body {
   animation: fadeIn 0.8s ease-in-out;
 }

@@ -10,8 +10,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- /*링크를 모든 파일의 header에 복붙할거야*/ -->
-    <!-- /*폰트스타일을 import해줌!*/ -->
     <title>Chats l Kakao clone</title>
   </head>
   <body>
@@ -20,9 +18,7 @@
         <span class="status-bar__clock">13:54</span>
       </div>
       <div class="status-bar__column">
-        <!-- /*status-bar밑에 애들이 깔려있는데, 이게 다 종속되는거임*/ -->
         <i class="far fa-clock"></i>
-        <!-- /*이게 어떻게 작동하는지 한번 구조를 만들면 굳이 복사x, 이름만 붙이면 돼*/ -->
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
         <span class="status-bar__battery-level">100%</span>
@@ -34,7 +30,6 @@
         <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
-        <!-- /*header 아이콘을 그냥 하나 박스 안에 다 넣어버리자*/ -->
         <span class="header__icon"> <i class="fas fa-search"></i></span>
         <span class="header__icon">
           <i class="far fa-comment"></i>
@@ -48,7 +43,6 @@
       <ul class="class chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <!-- /* a아래를 전부 링크 건 것임*/ -->
             <div class="chats__chat friend friend--lg">
               <div class="friend__column">
                 <img src="images/avatar.JPG" class="m-avatar friend__avatar" />
@@ -81,7 +75,6 @@
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
             <div class="nav__badge">8</div>
-            <!-- /*badge는 absolute가 되어야하고 컨테이너는 relative가 되어야함*/ -->
             <i class="fas fa-comment"></i>
           </a>
         </li>
